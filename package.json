@@ -1,0 +1,22 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "1. Intro\r 2. Installing react app\r 3. Create git repo\r 4. Git repo pushed",
+  "main": "index.js",
+  "scripts": {
+    "build":"cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafiquetuhin01/new-amazona.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shafiquetuhin01/new-amazona/issues"
+  },
+  "homepage": "https://github.com/shafiquetuhin01/new-amazona#readme"
+}
